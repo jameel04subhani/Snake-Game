@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #b614fe;
+  margin: 0;
+  color: #118ede;
+  position: relative;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.control-buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #118ede;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.control-buttons button:hover {
+  background-color: #118ede;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #118ede;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #666;
+}
+
+canvas {
+  background-color: #000;
+  border: 2px solid #fff;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.top-left, .top-right {
+  position: absolute;
+  top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.top-left:hover, .top-right:hover {
+  background-color: #666;
+}
+
+.top-left {
+  left: 10px;
+}
+
+.top-right {
+  right: 10px;
+}
